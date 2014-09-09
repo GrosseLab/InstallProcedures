@@ -7,6 +7,7 @@ rm samtools.tar.bz2
 
 cd samtools-1.0
 make
+cd ..
 mv samtools-1.0 /usr/local/bin/
 chown -R root /usr/local/bin/samtools-1.0/
 chgrp -R agbio /usr/local/bin/samtools-1.0/
