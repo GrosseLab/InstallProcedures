@@ -5,5 +5,5 @@ tar xvzf corset.tar.gz
 
 mv corset-1.02 /usr/local/bin/
 cd corset-1.02
-./configure --with-bam_inc="../samtools-1.0/sam.h" --with-bam_lib="../samtools-1.0/" # assume samtools-1.0 is already installed
+./configure --with-bam_inc="../samtools-1.0/" --with-bam_lib="../samtools-1.0/" # assume samtools-1.0 is already installed
 make
