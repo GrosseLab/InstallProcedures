@@ -49,3 +49,4 @@ Install procedures of common bioinformatics tools
 ## Utilities
 
 - BEDTools
+- /etc/profile
