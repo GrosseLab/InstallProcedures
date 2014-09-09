@@ -22,7 +22,7 @@ export PATH=$PATH:/usr/local/bin/bowtie2 # add BOWTIE 2
 export PATH=$PATH:/usr/local/bin/bwa # add BWA
 export PATH=$PATH:/usr/local/bin/FastQC # add FastQC
 export PATH=$PATH:/usr/local/bin/R/bin # add R
-export PATH=$PATH:/usr/local/bin/samtools/bin # add SAMTOOLS
+export PATH=$PATH:/usr/local/bin/samtools-1.0/bin # add SAMTOOLS
 export PATH=$PATH:/usr/local/bin/segemehl/segemehl/ # add SEGEMEHL
 
 # SCALA TOOLS
