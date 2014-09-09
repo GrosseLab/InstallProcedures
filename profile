@@ -23,7 +23,7 @@ export PATH=$PATH:/usr/local/bin/bwa # add BWA
 export PATH=$PATH:/usr/local/bin/FastQC # add FastQC
 export PATH=$PATH:/usr/local/bin/R/bin # add R
 export PATH=$PATH:/usr/local/bin/samtools-1.0/bin # add SAMTOOLS
-export PATH=$PATH:/usr/local/bin/segemehl/segemehl/ # add SEGEMEHL
+export PATH=$PATH:/usr/local/bin/segemehl_0_1_9/segemehl/ # add SEGEMEHL
 
 # SCALA TOOLS
 export PATH=$PATH:/use/local/bin/sbt/bin # add SBT
