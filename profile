@@ -25,6 +25,7 @@ export PATH=$PATH:/usr/local/bin/R-3.1.1/bin # add R
 export PATH=$PATH:/usr/local/bin/samtools-1.0/ # add SAMTOOLS
 export PATH=$PATH:/usr/local/bin/segemehl_0_1_9/segemehl/ # add SEGEMEHL
 export PATH=$PATH:/usr/local/bin/picard-tools-1.119 # add Picard
+export PATH=$PATH:/usr/local/bin/snakemake/bin # snakemake
 
 # SCALA TOOLS
 export PATH=$PATH:/use/local/bin/sbt/bin # add SBT
