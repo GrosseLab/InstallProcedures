@@ -26,6 +26,8 @@ export PATH=$PATH:/usr/local/bin/samtools-1.0/ # add SAMTOOLS
 export PATH=$PATH:/usr/local/bin/segemehl_0_1_9/segemehl/ # add SEGEMEHL
 export PATH=$PATH:/usr/local/bin/picard-tools-1.119 # add Picard
 export PATH=$PATH:/usr/local/bin/snakemake/bin # snakemake
+export PATH=$PATH:/usr/local/bin/ncbi-blast-2.2.30+/bin # add blast+
+export PATH=$PATH:/usr/local/bin/blast-2.2.26/bin # add blastall
 
 # SCALA TOOLS
 export PATH=$PATH:/use/local/bin/sbt/bin # add SBT
