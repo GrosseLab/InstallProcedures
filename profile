@@ -28,6 +28,7 @@ export PATH=$PATH:/usr/local/bin/picard-tools-1.119 # add Picard
 export PATH=$PATH:/usr/local/bin/ncbi-blast-2.2.30+/bin # add blast+
 export PATH=$PATH:/usr/local/bin/blast-2.2.26/bin # add blastall
 export PATH=$PATH:/usr/local/bin/python3/bin # add python3
+export PATH=$PATH:/usr/local/bin/subread-1.4.6/bin
 
 # SCALA TOOLS
 export PATH=$PATH:/use/local/bin/sbt/bin # add SBT
