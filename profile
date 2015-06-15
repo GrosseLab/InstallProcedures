@@ -34,3 +34,4 @@ export PATH=$PATH:/usr/local/bin/subread-1.4.6/bin
 export PATH=$PATH:/use/local/bin/sbt/bin # add SBT
 
 export PYTHONPATH=/usr/local/bin/python3/lib/python3.4/site-packages/
+export PYTHONPATH=/usr/local/lib/python2.7/dist-packages:$PYTHONPATH
