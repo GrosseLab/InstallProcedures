@@ -1,5 +1,6 @@
 #!/bin/sh
 
+apt-get install build-essential libreadline-dev fort77
 wget http://mirrors.softliste.de/cran/src/base/R-3/R-3.1.1.tar.gz
 tar xvzf R-3.1.1.tar.gz
 rm -v R-3.1.1.tar.gz
