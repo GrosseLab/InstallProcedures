@@ -1,6 +1,6 @@
 #!/bin/sh
 
-apt-get install build-essential libreadline-dev fort77
+apt-get install build-essential libreadline-dev fort77 liblapack-dev
 mv /usr/lib/libf2c.so /usr/lib/libf2c.so_backup
 ln -s /usr/lib/libf2c.a /usr/lib/libf2c.so
 wget http://mirrors.softliste.de/cran/src/base/R-3/R-3.1.1.tar.gz
