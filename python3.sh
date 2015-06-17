@@ -1,5 +1,6 @@
 #!/bin/sh
 
+apt-get install libssl-dev
 wget https://www.python.org/ftp/python/3.4.3/Python-3.4.3.tgz
 tar xvzf ./Python-3.4.3.tgz
 cd ./Python-3.4.3
