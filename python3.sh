@@ -7,5 +7,6 @@ cd ./Python-3.4.3
 ./configure --prefix=/usr/local/bin/python3/
 make && make install
 
+cd ..
 rm Python-3.4.3.tgz
 rm -Rf Python-3.4.3/
