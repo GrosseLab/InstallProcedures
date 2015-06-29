@@ -14,21 +14,21 @@ fi
 export PATH
 
 # BIOINFO TOOLS
-export PATH=$PATH:/usr/local/bin/bcftools-1.0/bin # add BCFTOOLS 
-export PATH=$PATH:/usr/local/bin/bedtools/bin # add BEDTOOLS 
-export PATH=$PATH:/usr/local/bin/blast # add BLAST-SUITE
-export PATH=$PATH:/usr/local/bin/bowtie1 # add BOWTIE 1
-export PATH=$PATH:/usr/local/bin/bowtie2-2.2.3 # add BOWTIE 2
-export PATH=$PATH:/usr/local/bin/bwa-0.7.10 # add BWA
-export PATH=$PATH:/usr/local/bin/FastQC # add FastQC
-export PATH=$PATH:/usr/local/bin/R-3.1.1/bin # add R
-export PATH=$PATH:/usr/local/bin/samtools-1.0/ # add SAMTOOLS
-export PATH=$PATH:/usr/local/bin/segemehl_0_1_9/segemehl/ # add SEGEMEHL
-export PATH=$PATH:/usr/local/bin/picard-tools-1.119 # add Picard
-export PATH=$PATH:/usr/local/bin/ncbi-blast-2.2.30+/bin # add blast+
-export PATH=$PATH:/usr/local/bin/blast-2.2.26/bin # add blastall
-export PATH=$PATH:/usr/local/bin/python3/bin # add python3
-export PATH=$PATH:/usr/local/bin/subread-1.4.6/bin
+export PATH=/usr/local/bin/bcftools-1.0/bin:$PATH # add BCFTOOLS 
+export PATH=/usr/local/bin/bedtools/bin:$PATH # add BEDTOOLS 
+export PATH=/usr/local/bin/blast:$PATH # add BLAST-SUITE
+export PATH=/usr/local/bin/bowtie1:$PATH # add BOWTIE 1
+export PATH=/usr/local/bin/bowtie2-2.2.3:$PATH # add BOWTIE 2
+export PATH=/usr/local/bin/bwa-0.7.10:$PATH # add BWA
+export PATH=/usr/local/bin/FastQC:$PATH # add FastQC
+export PATH=/usr/local/bin/R-3.2.1/bin:$PATH # add R
+export PATH=/usr/local/bin/samtools-1.0/:$PATH # add SAMTOOLS
+export PATH=/usr/local/bin/segemehl_0_1_9/segemehl/:$PATH # add SEGEMEHL
+export PATH=/usr/local/bin/picard-tools-1.119:$PATH # add Picard
+export PATH=/usr/local/bin/ncbi-blast-2.2.30+/bin:$PATH # add blast+
+export PATH=/usr/local/bin/blast-2.2.26/bin:$PATH # add blastall
+export PATH=/usr/local/bin/python3/bin:$PATH # add python3
+export PATH=/usr/local/bin/subread-1.4.6/bin:$PATH
 
 # SCALA TOOLS
 export PATH=$PATH:/use/local/bin/sbt/bin # add SBT
