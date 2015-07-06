@@ -39,3 +39,4 @@ export PYTHONPATH=/usr/local/lib/python2.7/dist-packages:$PYTHONPATH
 
 # R PATHS
 export R_LIBS_USER=/usr/local/bin/R-3.2.1/lib/R/library
+export LD_LIBRARY_PATH=/usr/local/bin/R-3.2.1/lib/R/lib:$LD_LIBRARY_PATH
