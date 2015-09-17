@@ -22,7 +22,7 @@ export PATH=/usr/local/bin/bowtie2-2.2.3:$PATH # add BOWTIE 2
 export PATH=/usr/local/bin/bwa-0.7.10:$PATH # add BWA
 export PATH=/usr/local/bin/FastQC:$PATH # add FastQC
 export PATH=/usr/local/bin/R-3.2.1/bin:$PATH # add R
-export PATH=/usr/local/bin/samtools-1.0/:$PATH # add SAMTOOLS
+export PATH=/usr/local/bin/samtools-1.2/:$PATH # add SAMTOOLS
 export PATH=/usr/local/bin/segemehl_0_1_9/segemehl/:$PATH # add SEGEMEHL
 export PATH=/usr/local/bin/picard-tools-1.119:$PATH # add Picard
 export PATH=/usr/local/bin/ncbi-blast-2.2.30+/bin:$PATH # add blast+
@@ -35,7 +35,6 @@ export PATH=$PATH:/use/local/bin/sbt/bin # add SBT
 
 # PYTHON PATHS
 export PYTHONPATH=/usr/local/bin/python3/lib/python3.4/site-packages/
-export PYTHONPATH=/usr/local/lib/python2.7/dist-packages:$PYTHONPATH
 
 # R PATHS
 export R_LIBS_USER=/usr/local/bin/R-3.2.1/lib/R/library
