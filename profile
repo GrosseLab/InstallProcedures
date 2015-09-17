@@ -15,7 +15,7 @@ export PATH
 
 # BIOINFO TOOLS
 export PATH=/usr/local/bin/bcftools-1.0/bin:$PATH # add BCFTOOLS 
-export PATH=/usr/local/bin/bedtools2-2.20.1/bin:$PATH # add BEDTOOLS 
+export PATH=/usr/local/bin/bedtools2-2.25.0/bin:$PATH # add BEDTOOLS 
 export PATH=/usr/local/bin/blast:$PATH # add BLAST-SUITE
 export PATH=/usr/local/bin/bowtie1:$PATH # add BOWTIE 1
 export PATH=/usr/local/bin/bowtie2-2.2.3:$PATH # add BOWTIE 2
