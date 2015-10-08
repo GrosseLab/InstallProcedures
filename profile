@@ -29,6 +29,7 @@ export PATH=/usr/local/bin/ncbi-blast-2.2.30+/bin:$PATH # add blast+
 export PATH=/usr/local/bin/blast-2.2.26/bin:$PATH # add blastall
 export PATH=/usr/local/bin/python3/bin:$PATH # add python3
 export PATH=/usr/local/bin/subread-1.4.6-p5-source/bin:$PATH # add featureCounts
+export PATH=/usr/local/bin/vcftools_0.1.13/bin:$PATH # add vcftools
 alias gatk="java -jar /usr/local/bin/GenomeAnalysisTK-3.4-46/GenomeAnalysisTK.jar" #make GATK available as gatk
 
 # SCALA TOOLS
