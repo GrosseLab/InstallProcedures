@@ -13,3 +13,4 @@ cd ..
 mv -f vcftools_0.1.13 /usr/local/bin/
 chown -R root:agbio /usr/local/bin/vcftools_0.1.13/
 chmod 755 /usr/local/bin/vcftools_0.1.13/
+ln -s /usr/local/bin/vcftools_0.1.13/bin/vcftools /usr/local/bin/

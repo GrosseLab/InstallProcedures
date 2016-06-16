@@ -12,3 +12,4 @@ chown -R root /usr/local/bin/bcftools-1.0/
 chgrp -R agbio /usr/local/bin/bcftools-1.0/
 chmod 755 /usr/local/bin/bcftools-1.0/
 rm -Rf bcftools-1.0
+ln -s /usr/local/bin/bcftools-1.0/bin/* /usr/local/bin/

@@ -19,3 +19,4 @@ cd bedtools2
 make
 cd ..
 mv -v bedtools2 /usr/local/bin/bedtools2-2.22.1
+ln -s /usr/local/bin/bedtools2-2.22.1/bin/* /usr/local/bin/
