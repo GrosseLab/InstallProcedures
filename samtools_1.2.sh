@@ -12,4 +12,4 @@ cd ..
 mv -f samtools-1.2 /usr/local/bin/
 chown -R root:agbio /usr/local/bin/samtools-1.2/
 chmod 755 /usr/local/bin/samtools-1.2/
-ln -s /usr/local/bin/samtools-1.2/samtools /usr/local/bin/
+ln -sf /usr/local/bin/samtools-1.2/samtools /usr/local/bin/

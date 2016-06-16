@@ -7,4 +7,4 @@ cd subread-1.4.6-source/src
 make -f Makefile.Linux
 cd ../..
 mv subread-1.4.6-source /usr/local/bin/subread-1.4.6
-ln -s /usr/local/bin/subread-1.4.6/bin/featureCounts /usr/local/bin/
+ln -sf /usr/local/bin/subread-1.4.6/bin/featureCounts /usr/local/bin/
