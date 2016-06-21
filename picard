@@ -1,0 +1,3 @@
+#! /bin/bash
+
+java -jar /usr/local/bin/Picard-1.1080/picard.jar $@

@@ -5,5 +5,5 @@ wget -O 'picard.zip' 'http://downloads.sourceforge.net/project/picard/picard-too
 unzip picard.zip
 rm picard.zip
 mv picard-tools-1.119 /usr/local/bin/
-apt-get install execstack
+apt-get install -qqy execstack
 execstack -c /usr/local/bin/picard-tools-1.119/libIntelDeflater.so
