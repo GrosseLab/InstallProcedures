@@ -1,3 +1,3 @@
 #! /bin/bash
 
-java -jar /usr/local/bin/Picard-2.5.0/picard.jar $@
+java -jar /usr/local/bin/picard-tools-2.5.0/picard.jar $@
