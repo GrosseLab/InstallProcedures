@@ -8,4 +8,4 @@ make STAR
 
 cd ..
 mv STAR-2.5.2a /usr/local/bin
-ln -s /usr/local/bin/STAR-2.5.2a/bin/STAR /usr/local/bin/
+ln -s /usr/local/bin/STAR-2.5.2a/bin/Linux_x86_64/STAR /usr/local/bin/
