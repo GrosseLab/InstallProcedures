@@ -5,8 +5,7 @@ tar -xvzf segemehl_0_2_0.tar.gz
 cd segemehl_0_2_0/segemehl
 make
 cd ../..
-rm -v segemehl_0_2_0.tar.gz
-mv -v segemehl_0_2_0 /usr/local/bin
-chown -R root /usr/local/bin/segemehl_0_2_0/
-chgrp -R staff /usr/local/bin/segemehl_0_2_0/
-chmod 755 /usr/local/bin/segemehl_0_2_0/
+rm segemehl_0_2_0.tar.gz
+mv segemehl_0_2_0/segemehl /usr/local/bin/segemehl-0.2.0
+
+ln -sf /usr/local/bin/segemehl_0_2_0/segemehl.x /usr/local/bin/
