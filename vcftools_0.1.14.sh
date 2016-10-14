@@ -7,6 +7,7 @@ tar xzvf vcftools-0.1.14.tar.gz
 rm vcftools-0.1.14.tar.gz
 
 cd vcftools-0.1.14
+./configure
 make
 make install
 cd ..
