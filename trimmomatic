@@ -1,0 +1,3 @@
+#! /bin/bash
+
+java -jar /usr/local/bin/trimmomatic_0.36/trimmomatic-0.36.jar $@
